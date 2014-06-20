@@ -35,6 +35,6 @@ become this object:
     date: 'June 18, 2014'
     tags: ['hello', 'world']
     }
-    body:  'Hello world!\n'How are you all doing?'
+    body:  'Hello world!\nHow are you all doing?'
 }
 ```
