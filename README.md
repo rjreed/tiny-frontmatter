@@ -19,12 +19,9 @@ This file's contents:
 
 > \-\-\-
 > title: Hello
->
 > date: June 18, 2014
->
 > tags: \[ hello, world \]
 > \-\-\-
->
 > Hello world!
 > How are you all doing?
 
