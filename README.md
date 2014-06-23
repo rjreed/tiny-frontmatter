@@ -17,6 +17,7 @@ Pass the file's contents as a string to the module to get a parsed object back.
 
 This file's contents:
 
+<<<<<<< HEAD
 \-\-\-
 
 title: Hello
@@ -31,7 +32,14 @@ Hello world!
 
 How are you all doing?
 
-
+=======
+>\-\-\-
+>title: Hello
+>date: June 18, 2014
+>tags: \[ hello, world ]
+>\-\-\-
+>Hello world!
+>How are you all doing?
 
 become this object:
 
@@ -42,6 +50,6 @@ become this object:
     date: 'June 18, 2014'
     tags: ['hello', 'world']
     }
-    body:  'Hello world!\n'How are you all doing?'
+  body:  'Hello world!\nHow are you all doing?'
 }
 ```
