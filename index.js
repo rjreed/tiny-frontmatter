@@ -10,7 +10,6 @@ module.exports = function(data) {
 
   while (tmp = rxFm.exec(res[1]), tmp) {
     fm.attributes[tmp[1]] = tmp[2] ? tmp[2].split(rxArr) : tmp[3];
-    elapsedTime('rx');
   }
 
   return fm;
