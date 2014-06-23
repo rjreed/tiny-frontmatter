@@ -1,0 +1,29 @@
+{
+  "name": "TinyFrontMatter",
+  "main": "TinyFrontMatter",
+  "version": "0.0.1",
+  "description": "Tiny parser for file metadata",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjreed/TinyFrontMatter"
+  },
+  "author": {
+    "name": "Rocky Reed",
+    "email": "rockyjreed@gmail.com",
+    "url": "http://rockyjreed.com"
+  },
+  "scripts": {
+    "test": " mocha --reporter spec"
+  },
+  "keywords": [
+    "frontmatter",
+    "front-matter",
+    "metadata"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  },
+  "readmeFilename": "README.md"
+}
