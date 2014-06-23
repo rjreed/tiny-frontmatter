@@ -15,7 +15,7 @@ var base = {
 var noFm = {
 	attributes: {},
 	body: 'What are snails even trying to do?'
-}
+};
 
 //TODO: make better tests + better testing structure
 fs.readFile(path.resolve(__dirname, 'fixtures/', 'pugs.md'), 'utf-8', function(err,data){
