@@ -1,12 +1,12 @@
 {
-  "name": "TinyFrontMatter",
-  "main": "TinyFrontMatter",
+  "name": "tiny-frontmatter",
+  "main": "tiny-frontmatter",
   "version": "0.0.1",
   "description": "Tiny parser for file metadata",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rjreed/TinyFrontMatter"
+    "url": "git://github.com/rjreed/tiny-frontmatter"
   },
   "author": {
     "name": "Rocky Reed",

@@ -1,4 +1,4 @@
-# TinyFrontMatter
+# tiny-frontmatter
 
 This is a tiny node module for parsing a document containing simple metadata into a javascript object.
 
@@ -26,7 +26,7 @@ How are you all doing?
 Require the module:
 
 ```js
-var tfm = require('TinyFrontMatter');
+var tfm = require('tiny-frontmatter');
 ```
 
 Pass the file's contents as a string to the module to get a parsed object back.
