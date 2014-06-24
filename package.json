@@ -14,7 +14,7 @@
     "url": "http://rockyjreed.com"
   },
   "scripts": {
-    "test": " mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
     "frontmatter",

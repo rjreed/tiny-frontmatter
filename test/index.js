@@ -8,14 +8,15 @@ function compareRes(opts) {
   return describe(opts.label, function() {
     var file, obj;
     describe('Inital fs.readFile call', function() {
-      it('loads file contents', function(done) {
+      it('reads file and returns a string', function(done) {
         fs.readFile(path.resolve(__dirname, 'fixtures/', opts.filename), 'utf-8', function(err, data) {
           file = data;
+          data.should.exist.and.be.a('string');
           done();
         });
       });
     });
-    describe('Tiny Front Matter', function() {
+    describe('TinyFrontMatter', function() {
       it('responds to function call and returns an object', function() {
         obj = fm(file);
         obj.should.exist.and.be.an('object');
