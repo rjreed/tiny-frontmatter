@@ -4,6 +4,12 @@ This is a tiny node module for parsing a document containing simple metadata int
 
 I made it for a quick, easily editable alternative to using other large libraries or wrapper libraries for large libraries. It doesn't have any dependencies, and only requires macha + chai for dev dependencies.
 
+### Installation
+
+```sh
+$ npm install tiny-frontmatter
+````
+
 ### Syntax
 
 Frontmatter goes at the top of your file, and is delimited by the characters `---` before and after the metadata key/value pairs. Keys are unescaped strings followed by colon (with a whitespace character before and after if you want). Values can be either string or arrays. All keys, values, and array values should be unescaped (not wrapped in ' or " characters - just plain text).
@@ -15,11 +21,6 @@ key: [ value, value ]
 ---
 content
 ```
-
-
-### Installation
-
-`npm install tiny-frontmatter`
 
 ### Use Example:
 
