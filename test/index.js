@@ -10,8 +10,8 @@ function compareRes(opts) {
     describe('Inital fs.readFile call', function() {
       it('reads file and returns a string', function(done) {
         fs.readFile(path.resolve(__dirname, 'fixtures/', opts.filename), 'utf-8', function(err, data) {
-          file = data;
           data.should.exist.and.be.a('string');
+          file = data;
           done();
         });
       });
