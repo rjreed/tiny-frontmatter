@@ -8,6 +8,10 @@ I made it for a quick, easily editable alternative to using other large librarie
 
 Frontmatter goes at the top of your file, and is delimited by the characters `---` before and after the metadata key/value pairs. Keys are unescaped strings followed by colon (with a whitespace character before and after if you want). Values can be either string or arrays. All keys, values, and array values should be unescaped (not wrapped in ' or " characters - just plain text).
 
+### Installation
+
+`npm install tiny-frontmatter`
+
 ### Use Example:
 
 Start with a properly formated file:
