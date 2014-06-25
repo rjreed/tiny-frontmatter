@@ -2,7 +2,7 @@
 
 This is a tiny node module for parsing a document containing simple metadata into a javascript object.
 
-I made it for a quick, easily editable alternative to using other large libraries or wrapper libraries for large libraries. It doesn't have any dependencies, and only requires macha + chai for dev dependencies.
+I made it for a quick, easily editable alternative to using other large libraries or wrapper libraries for large libraries. It doesn't have any dependencies, and only requires mocha + chai for dev dependencies.
 
 ### Installation
 
