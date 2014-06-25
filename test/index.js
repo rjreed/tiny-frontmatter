@@ -7,7 +7,7 @@ var path = require('path');
 function compareRes(opts) {
   return describe(opts.label, function() {
     var file, obj;
-    describe('Inital fs.readFile call', function() {
+    describe('Inital fs.readFile', function() {
       it('reads file and returns a string', function(done) {
         fs.readFile(path.resolve(__dirname, 'fixtures/', opts.filename), 'utf-8', function(err, data) {
           data.should.exist.and.be.a('string');
@@ -16,7 +16,7 @@ function compareRes(opts) {
         });
       });
     });
-    describe('TinyFrontMatter', function() {
+    describe('tiny-frontmatter', function() {
       it('responds to function call and returns an object', function() {
         obj = fm(file);
         obj.should.exist.and.be.an('object');
