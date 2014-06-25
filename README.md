@@ -8,7 +8,7 @@ I made it for a quick, easily editable alternative to using other large librarie
 
 ```sh
 $ npm install tiny-frontmatter
-````
+```
 
 ### Syntax
 
@@ -58,7 +58,7 @@ This is the object that was returned from the above call:
 {
   attributes: {
     title: 'Hello',
-    date: 'June 18, 2014'
+    date: 'June 18, 2014',
     tags: ['hello', 'world']
     }
   body:  'Hello world!\nHow are you all doing?'
