@@ -1,7 +1,7 @@
 {
   "name": "tiny-frontmatter",
   "main": "./index.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Tiny parser for file metadata",
   "license": "MIT",
   "repository": {

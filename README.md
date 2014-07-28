@@ -43,10 +43,10 @@ Require the module:
 var tfm = require('tiny-frontmatter');
 ```
 
-Pass the file's contents as a string to the module to get a parsed object back.
+Pass the file's contents as a string to the module to get a parsed object back. Example:
 
 ```js
-fs.readFile( fs.readFile(path-to-hello.md, 'utf-8', function(err, data) {
+fs.readFile(path-to-hello.md, 'utf-8', function(err, data) {
   var parsed = tfm(data);
   // do something with your new object
 })
