@@ -1,16 +1,16 @@
 module.exports = function(data) {
-  var rx = /^---[\s]+([\s\S]*?)[\s]+---([\s\S]*?)$/;
-  var rxFm = /(.*?)\s*:\s*(?:(?:\[\s*(.*?)(?=\s*\]))|(.*))/g;
-  var rxArr = /\s?,\s?/g;
-  var res = rx.exec(data) || [null, null, data];
-  var tmp;
+  var basePattern = /^---[\s]+([\s\S]*?)[\s]+---([\s\S]*?)$/;
+  var fmPattern = /(.*?)\s*:\s*(?:(?:\[\s*(.*?)(?=\s*\]))|(.*))/g;
+  var arrayPattern = /\s?,\s?/g;
+  var results = basePattern.exec(data) || [null, null, data];
+  var temp;
   var fm = {
     attributes: {},
-    body: res[2].trim()
+    body: results[2].trim()
   };
 
-  while (tmp = rxFm.exec(res[1]), tmp) {
-    fm.attributes[tmp[1]] = tmp[2] ? tmp[2].split(rxArr) : tmp[3];
+  while (temp = fmPattern.exec(results[1]), temp) {
+    fm.attributes[temp[1]] = temp[2] ? temp[2].split(arrayPattern) : temp[3];
   }
 
   return fm;

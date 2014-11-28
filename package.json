@@ -1,7 +1,7 @@
 {
   "name": "tiny-frontmatter",
   "main": "./index.js",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Tiny parser for file metadata",
   "license": "MIT",
   "repository": {
@@ -22,8 +22,8 @@
     "metadata"
   ],
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.20.1"
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
   },
   "readmeFilename": "README.md"
 }
